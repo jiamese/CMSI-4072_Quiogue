@@ -1,5 +1,4 @@
-###Welcome to Hangful! 
-#
-Read more about us in our website:
+**# Welcome to Hangful! **
 
-https://www.hangful.com/
+Read more about us in our [Website]([URL](https://www.hangful.com/)):
+
