@@ -1,0 +1,83 @@
+
+Documentation Feedback ~ Deliverable #2
+Software Requirements Specification
+Initial Development Schedule
+CMSI 4072 Spring 2026
+=======================================
+
+COMPONENT BREAKDOWN:
+   Strengths:
+      Clear architectural listing across mobile, web, backend, and
+         infrastructure.
+      Subsystems (auth, deals, claims, referrals, storage) are
+         distinguishable.
+   Suggestions:
+      Components appear across PRD and TRD rather than together in a
+         single, explicit “component breakdown” section.
+      A numbered, hierarchical component list would strengthen traceability.
+
+FUNCTIONAL REQUIREMENTS:
+   Strengths:
+      Many requirements are written in clear “shall”/explicit functional
+         form.
+      Covers all major user roles comprehensively (brand manager, app
+         user).
+      API behaviors are fully specified.
+   Suggestions:
+      Requirements are distributed, not collected into a single
+         functional section.
+      Some requirements remain at user-story level rather than
+         testable statements.
+      Missing error-handling requirements (what happens when uploads
+         fail, invalid OTP, proof rejects, expired deals).
+      No explicit system constraints about limits (max claims, max
+         image size, expected data validation rules).
+      Some UX-focused features (animations, countdown) are described
+         but not expressed as testable functional requirements.
+
+PERFORMANCE REQUIREMENTS:
+   Strengths:
+      Mentions scaling tools (S3, CDN, async backend).
+      System architecture implies performance capacity.
+      Some implicit performance expectations: fast feed loading,
+         rapid OTP flow, countdown accuracy.
+   Suggestions:
+      Add explicit timing constraints: API response times, image
+         processing times, push/SMS delivery expectations.
+      Add efficiency constraints for mobile device performance.
+      Add data-volume and scaling expectations.
+
+ENVIRONMENT REQUIREMENTS:
+   Strengths:
+      Explicit technologies used for each layer.
+      Clear identification of required third-party services (Twilio,
+         AWS, Vercel).
+      Identifies iOS app environment.
+   Suggestions:
+      Add minimum device specifications and OS versions.
+      Add staging and deployment environment requirements.
+      Define browser support matrix precisely.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Component Breakdown               0.9/1
+   Functional Requirements           3.6/4
+   Performance Requirements          1.9/2
+   Environment Requirements          0.8/1
+                                     =====
+   Subtotal                          7.2/8
+   Preliminary Schedule              2.0/2   [Freebee]
+   ------------------------------------------------------
+   Total Percentage:   9.2/10 = 92% which is an A-minus
+
+
+OVERALL ASSESSMENT:
+You've met most of the desired measurements for this deliverable.  Your SRS
+is very well done but could benefit from at least incorporating a few of
+the suggestions to make it even more complete, such as: Consolidating all
+functional requirements into a single numbered SRS style section; adding
+failure mode requirements and explicitly state validations; and adding
+preconditions/postconditions for core flows (claiming, uploading, approving).
+
+Nice work on this deliverable ~ keep up the good work!
+

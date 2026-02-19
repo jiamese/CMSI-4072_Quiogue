@@ -1,0 +1,39 @@
+
+CMSI 4072 Spring 2026
+Project Proposal Feedback
+Project: Schedulr
+=========================
+Proposal Document [2 points]:
+   Verbal Description:
+      Not done as specified.  No document for this deliverable.
+
+   Justification:
+      Not done as specified.  No document for this deliverable.
+
+Proposal Presentation [Slides and video] [3 points]:
+   Slides:
+      Your slides are REALLY nice!  You did a great job on this part of the
+      project.  I like the way you vary the backgrounds, your graphics are
+      good, there is the 'right amount' of text on the slides, and I like
+      the animations ~ they add without distracting.  You also cover all of
+      the important points well, and the audience really understands what
+      the application is about and why it would be useful.  You also give a
+      good rationalization for why doing this project is important for the
+      target group.  Very nice work here.
+
+   Video:
+      Your video is great also.  Very professional looking and sounding.
+      The animations on the slides really shine here and your voice is nice
+      and clear.  You obviously have rehearsed what you will say so there is
+      very little lag in the presentation.  It does sound a bit like you are
+      reading from a script, so that is something you could focus on in the
+      next presentation ~ try to do more from your head knowledge and make
+      it less like you're reading.  I know that when you're recording it is
+      a tendency to have a document that you can read from, but pretend you
+      are in front of a live audience.
+
+Summary:
+--------
+
+Nice jobe except for the document part. :(
+Three out of Five points for this deliverable.
