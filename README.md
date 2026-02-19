@@ -1,4 +1,4 @@
-**# Welcome to Hangful! **
+# **Welcome to Hangful!**
 
-Read more about us in our [Website]([URL](https://www.hangful.com/)):
+Read more about us on our [Website](https://www.hangful.com/).
 
