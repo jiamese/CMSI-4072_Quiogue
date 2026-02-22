@@ -1,0 +1,61 @@
+
+
+HW 1 - Stephens Book Chapters 1, 2, 4, and 5
+CMSI 4072 Spring 2026
+
+Category        Weight     Earned
+===========    ========    ======
+Problem 1.1    [8 pts.]       7.0
+Problem 1.2    [8 pts.]       7.0
+Problem 2.4    [1 pts.]       1.0
+Problem 2.5    [1 pts.]       1.0
+Problem 4.2    [5 pts.]       5.0
+Problem 4.4    [5 pts.]       3.0
+Problem 4.6    [1 pts.]       1.0
+Problem 4.8    [2 pts.]       2.0
+Problem 5.1    [1 pts.]       1.0
+Problem 5.3    [5 pts.]       4.0
+Problem 5.9    [3 pts.]       3.0
+
+      Subtotal [50 max]      40.0
+             Your Total      35.0
+
+         Letter grade   B-plus
+
+=================
+SPECIFIC COMMENTS:
+
+Problem 1.1 ~ Solid list but omits Maintenance, which the book treats as a
+   core task.
+
+Problem 1.2 ~ Clear and accurate for the phases provided; however, 
+   Maintenance isn’t described
+
+Problem 2.4 ~ correct
+
+Problem 2.5 ~ correct
+
+Problem 4.2 ~ correct
+
+Problem 4.4 ~  Useful attempt, but there are date/holiday errors:
+   Jan 1, 2024 was a Monday; the first workday Jan 2 is correct, yet the
+      opening statement is inconsistent.
+   MLK Day is Monday, Jan 15, 2024, not Jan 20 as listed. With the correct
+      holiday, a 6‑day Task D starting Wed Jan 10 should finish Thu Jan  18,
+      not Jan 17.
+   With Feb 14 marked as a holiday in the table, a 4‑day Q running Feb 9–?
+      should complete Fri Feb 16, not Feb 15.
+
+Problem 4.6 ~ correct
+
+Problem 4.8 ~ correct
+
+Problem 5.1 ~ correct
+
+Problem 5.3 ~ several classifications are debatable or too narrow (e.g., 
+   many items labeled FR could also have User aspects)
+
+Problem 5.9 ~ correct
+
+
+nice work!
