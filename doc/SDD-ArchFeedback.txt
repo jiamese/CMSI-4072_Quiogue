@@ -7,30 +7,95 @@ CMSI 4072 Spring 2026 ~ hangful
 6.1 INTRODUCTION SECTION:
    System objectives section
       Strengths:
-
+         Objectives are clearly stated and actionable, focusing on primary
+            user activities and the sequence of interactions that define
+            the core user loop.
+         The objectives are specific enough to serve as anchors for system
+            behaviors described later in the architecture section.
       Suggestions:
+         The objectives would be more complete if non-functional goals were
+            added, such as reliability, scalability, usability, and
+            data-privacy expectations.
+         Adding priorities or distinguishing between essential MVP features
+            and longer-term goals would improve clarity.
+         Mapping each objective to the associated component or workflow would
+            help with understanding cross-system responsibility.
 
    Hardware, software, and human interfaces section
       Strengths:
-
+         Hardware requirements are well identified, including device
+            capabilities and platform versions needed for correct operation.
+         Software components and external services are thoroughly identified,
+            providing a strong understanding of dependencies and integration
+            points.
+         Human-interface descriptions clearly explain primary navigation,
+            workflows, and UI structure across the app.
       Suggestions:
+         Some assumptions could be more explicitly called out, such as network
+            quality expectations, camera conditions, or device-storage
+            constraints.
+         Accessibility considerations (contrast, text scaling, assistive
+            technologies) should be documented to ensure the UI meets broader
+            usability requirements.
+         The section could also describe failure-mode behaviors for external
+            services to clarify boundary-handling expectations at the interface
+            level.
 
 
 6.2 ARCHITECTURAL DESIGN SECTION:
    Major softwre components section
       Strengths:
-
+         Components are described with substantial detail, including models,
+            view models, services, backend modules, database structures, and
+            storage systems.
+         Responsibilities of each component are well defined and show clean
+            separation between data management, business logic, networking,
+            and UI presentation.
+         The descriptions make it easy to understand how each subsystem
+            supports the larger architecture.
       Suggestions:
+         For completeness, each component should include a clearly stated set
+            of provided and required interfaces, including expected inputs
+            and outputs.
+         Components should note their constraints, such as performance limits,
+            concurrency behavior, and extensibility expectations.
+         Some components would benefit from identifying which parts are intended
+            to be replaceable, configurable, or expanded in future releases.
 
    Major software interactions section
       Strengths:
-
+         System interactions are described in detail, including core data flows,
+            authentication sequences, upload workflows, and transactional
+            behaviors.
+         The document explains interaction patterns consistently, reflecting a
+            clear understanding of how components coordinate across boundaries.
+         Error conditions and conflict states are addressed, which is important
+            for correctness in distributed interactions.
       Suggestions:
+         The section could be improved by documenting latency expectations,
+            retry strategies, and timeout behavior for key interaction paths.
+         It should more explicitly identify which endpoints must be idempotent
+            and how repeated client actions are safely handled.
+         Adding structured information about how errors propagate between
+            layers, and which are surfaced to the user, would strengthen clarity.
 
    Architectural design diagrams section
       Strengths:
-
+         The diagrams provided include multiple architectural perspectives,
+            such as use-case views, component and deployment diagrams, and
+            sequence-style flows.
+         Diagrams accurately reflect relationships and highlight the major
+            interactions described in the text.
+         They support understanding by visually reinforcing the logical and
+            physical structure of the system.
       Suggestions:
+         Adding a legend or notation key would help future maintainers interpret
+            diagram symbols consistently.
+         A top-level deployment diagram with clearer trust boundaries and data
+            -flow annotations would enhance architectural transparency.
+         A dedicated data-flow diagram highlighting sensitive information such
+            as authentication tokens and user-submitted content would strengthen
+            security awareness in the architecture.
 
 
 OVERALL ASSESSMENT:
@@ -51,3 +116,25 @@ The document was not submitted by the due date, no other arrangements were
 made in advance.  Document was not located in repository by March 3 which
 is nearly a week past the due date.  Zero points for this deliverable.
 
+=================================================================
+RE-EVALUATION ASSESSMENT 2026-03-21:
+   INTRODUCTION                        1.0
+   System objectives                   1.0
+   H/W, S/W, Human I/F                 1.0
+
+   ARCHITECTURAL DESIGN SECTION:
+   Major softwre components            1.0
+   Major software interactions         1.0
+   Architectural design diagrams       5.0
+                                     ======
+   Subtotal                           10.0
+   ------------------------------------------------------
+   Total Percentage:  10/10 = 100% which is an A-plus on this deliverable.
+
+The SDD provides a thorough and well-structured architectural description
+of the application. It is strong in its coverage of components, interactions,
+and user-facing workflows, and it already satisfies many expectations for an
+effective architectural SDD.  The main areas for improvement relate to
+articulation of non-functional requirements, explicit interface contracts,
+failure-mode behaviors, and clearer representation of trust boundaries and
+data-flow characteristics.
